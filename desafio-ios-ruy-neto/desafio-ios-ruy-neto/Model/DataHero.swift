@@ -13,9 +13,9 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 
 import Foundation
 struct DataHero : Codable {
-	let offset : Int?
-	let limit  : Int?
-	let total  : Int?
-	let count  : Int?
-	let results : [Results]?
+	let offset  : Int!
+	let limit   : Int!
+	let total   : Int!
+	let count   : Int!
+	let results : [Results]!
 }

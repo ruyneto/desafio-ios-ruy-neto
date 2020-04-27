@@ -13,11 +13,11 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 
 import Foundation
 struct CharactersResponse : Codable {
-	let code : Int?
-	let status : String?
-	let copyright : String?
-	let attributionText : String?
-	let attributionHTML : String?
-    let data : DataHero?
-	let etag : String?
+	let code : Int!
+	let status : String!
+	let copyright : String!
+	let attributionText : String!
+	let attributionHTML : String!
+    let data : DataHero!
+	let etag : String!
 }

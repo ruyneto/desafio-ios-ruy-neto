@@ -7,8 +7,8 @@
 //
 
 import Foundation
-
+import SwiftyJSON
 struct HeroList{
-    typealias CompleteHerosSuccessHandler = (_ dataHeros:Any?)->Void
+    typealias CompleteHerosSuccessHandler = (_ dataHeros:CharactersResponse)->Void
     typealias CompleteHerosErrorHandler   = (_ error:Any?)->Void
 }

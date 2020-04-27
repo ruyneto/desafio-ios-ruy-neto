@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'desafio-ios-ruy-neto' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for desafio-ios-ruy-neto
+	pod 'SwiftyJSON', '~> 4.0'
+  target 'desafio-ios-ruy-netoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'desafio-ios-ruy-netoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

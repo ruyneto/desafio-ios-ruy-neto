@@ -1,0 +1,6 @@
+framework module Pods_desafio_ios_ruy_netoUITests {
+  umbrella header "Pods-desafio-ios-ruy-netoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -13,25 +13,10 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 
 import Foundation
 struct Series : Codable {
-	let available : String?
-	let returned : String?
+	let available : Double?
+	let returned : Double?
 	let collectionURI : String?
 	let items : [Items]?
 
-	enum CodingKeys: String, CodingKey {
-
-		case available = "available"
-		case returned = "returned"
-		case collectionURI = "collectionURI"
-		case items = "items"
-	}
-
-	init(from decoder: Decoder) throws {
-		let values = try decoder.container(keyedBy: CodingKeys.self)
-		available = try values.decodeIfPresent(String.self, forKey: .available)
-		returned = try values.decodeIfPresent(String.self, forKey: .returned)
-		collectionURI = try values.decodeIfPresent(String.self, forKey: .collectionURI)
-		items = try values.decodeIfPresent([Items].self, forKey: .items)
-	}
-
+	
 }

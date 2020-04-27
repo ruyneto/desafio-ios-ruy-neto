@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC163EF72AB8EB1D0846F914D2AB045 /* Pods-desafio-ios-ruy-netoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B671FA2140D85B969301F8DBDB3B4393 /* Pods-desafio-ios-ruy-netoUITests-dummy.m */; };
+		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C66A9CAE176AAB72C4576E0BE4BD54C /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C95A8870723E1CCCE8E874074BA8DFE /* Pods-desafio-ios-ruy-netoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DD7BF70E52666B9BBA14519603934D /* Pods-desafio-ios-ruy-netoTests-dummy.m */; };
+		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E473AEF89063E3384C91DA34E0D9B36B /* SwiftyJSON-dummy.m */; };
+		464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5FB72719D87D4AE314BE0F8C979B9F2C /* Pods-desafio-ios-ruy-netoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E05A37A427B025CD6FA59D901508C24F /* Pods-desafio-ios-ruy-netoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE769DE95ED8916CCDF62631883112F /* Pods-desafio-ios-ruy-netoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D36DBC1E51856C52AE0E238BCF280CCE /* Pods-desafio-ios-ruy-netoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72BA9FA75972699C5076B01872084708 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDBD0D3576836D87BFE122FD7BA5E07 /* SwiftyJSON.swift */; };
+		D71C7BAD5A0525F2B0B3DCFC3A700FBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DD840E4C50225EE7F0ADF33C93F1E3E4 /* Pods-desafio-ios-ruy-neto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BF5DA35444E4F3EE07EAEA513D56C8 /* Pods-desafio-ios-ruy-neto-dummy.m */; };
+		DE64EAFD2E16D8C1BC83AD13E90F9473 /* Pods-desafio-ios-ruy-neto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9033DFEB79B7ED6A81D2FFD9D76FA3 /* Pods-desafio-ios-ruy-neto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F26F1D6401317AF9F1CA24D3F926667E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3013E3155424817DA7F9476E6748A72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE44603E12B90FB4228DA402B3EF88DC;
+			remoteInfo = "Pods-desafio-ios-ruy-neto";
+		};
+		868FB555281DB8E071B57CC6AB91BF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		BB4E0387EA8438DA9F7BDD6FEA7074CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE44603E12B90FB4228DA402B3EF88DC;
+			remoteInfo = "Pods-desafio-ios-ruy-neto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D55458988594B16A79D0F8C13451EC /* Pods-desafio-ios-ruy-neto-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-desafio-ios-ruy-neto-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05EB2E221DD60B8EFCF51F6CEE4D84ED /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		08B3088688AE29D2C8E12BF89E3AEEAE /* Pods-desafio-ios-ruy-netoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-desafio-ios-ruy-netoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CDBD0D3576836D87BFE122FD7BA5E07 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		11FA44BA8BA2ADF2480F1C8E9AAA855F /* Pods-desafio-ios-ruy-netoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-ruy-netoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A26579A22E2AFBEF6D5484F84EFB701 /* Pods-desafio-ios-ruy-neto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-ruy-neto.debug.xcconfig"; sourceTree = "<group>"; };
+		1B2F4BBD3027AA1E3230C07070E6E92A /* Pods_desafio_ios_ruy_netoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_desafio_ios_ruy_netoUITests.framework; path = "Pods-desafio-ios-ruy-netoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9033DFEB79B7ED6A81D2FFD9D76FA3 /* Pods-desafio-ios-ruy-neto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-desafio-ios-ruy-neto-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		356BB35E498FEA1DCEC565B2475FC087 /* Pods-desafio-ios-ruy-netoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-desafio-ios-ruy-netoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DFCF12ACB5BC29ED0F37632F2E937BF /* Pods-desafio-ios-ruy-neto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-ruy-neto-Info.plist"; sourceTree = "<group>"; };
+		3E34E7923DF315847630773A3FDCCD79 /* Pods_desafio_ios_ruy_neto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_desafio_ios_ruy_neto.framework; path = "Pods-desafio-ios-ruy-neto.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BF5DA35444E4F3EE07EAEA513D56C8 /* Pods-desafio-ios-ruy-neto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-desafio-ios-ruy-neto-dummy.m"; sourceTree = "<group>"; };
+		4C66A9CAE176AAB72C4576E0BE4BD54C /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		571603CA3E54B6CD8547FC7AAB992E07 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		6A17D341EE6B53364D13A01F7A1A76C3 /* Pods-desafio-ios-ruy-neto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-desafio-ios-ruy-neto.modulemap"; sourceTree = "<group>"; };
+		6B0FBD7A2AA3579B96CE650BD5298CF1 /* Pods-desafio-ios-ruy-netoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-ruy-netoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F2A9C48E2B7295319908ABE0D2A3C6C /* Pods_desafio_ios_ruy_netoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_desafio_ios_ruy_netoTests.framework; path = "Pods-desafio-ios-ruy-netoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD008C4CBA1A19480F6A65AA613B90D /* Pods-desafio-ios-ruy-neto-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-desafio-ios-ruy-neto-frameworks.sh"; sourceTree = "<group>"; };
+		8F0DC3E7009A9C4B97DC7AADAF605152 /* Pods-desafio-ios-ruy-neto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-ruy-neto.release.xcconfig"; sourceTree = "<group>"; };
+		8FFE87320CCFE4752A5D7453ABACD46C /* Pods-desafio-ios-ruy-netoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-ruy-netoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99BAF10BDD7F63ABB8364B2E3E37D7D6 /* Pods-desafio-ios-ruy-netoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-ruy-netoUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD8866375A93EB18FF6FB635E187B11C /* Pods-desafio-ios-ruy-netoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-ruy-netoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2E04630EB93484FB08C290E407E34CB /* Pods-desafio-ios-ruy-netoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-ruy-netoTests-Info.plist"; sourceTree = "<group>"; };
+		B4C1CFB0380854C37122D6C4EEF21857 /* Pods-desafio-ios-ruy-netoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-desafio-ios-ruy-netoUITests.modulemap"; sourceTree = "<group>"; };
+		B671FA2140D85B969301F8DBDB3B4393 /* Pods-desafio-ios-ruy-netoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-desafio-ios-ruy-netoUITests-dummy.m"; sourceTree = "<group>"; };
+		BA225E9D60AB2A459137799025F722F4 /* Pods-desafio-ios-ruy-neto-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-ruy-neto-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2A58281B94A4F84531F4D42F37BD095 /* Pods-desafio-ios-ruy-netoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-ruy-netoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D36DBC1E51856C52AE0E238BCF280CCE /* Pods-desafio-ios-ruy-netoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-desafio-ios-ruy-netoUITests-umbrella.h"; sourceTree = "<group>"; };
+		DA6025313F80BFF3A8EAE5EF1E57E84B /* Pods-desafio-ios-ruy-netoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-desafio-ios-ruy-netoTests.modulemap"; sourceTree = "<group>"; };
+		E05A37A427B025CD6FA59D901508C24F /* Pods-desafio-ios-ruy-netoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-desafio-ios-ruy-netoTests-umbrella.h"; sourceTree = "<group>"; };
+		E06E29E2979CDBEB5F2AD1D03AF329D3 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DD7BF70E52666B9BBA14519603934D /* Pods-desafio-ios-ruy-netoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-desafio-ios-ruy-netoTests-dummy.m"; sourceTree = "<group>"; };
+		E473AEF89063E3384C91DA34E0D9B36B /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		E8473499E91B2D5B0E8BEDA4FEFA70CC /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		EF086DC5D15DE65DB043FD2F08148F8E /* Pods-desafio-ios-ruy-netoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-ruy-netoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10F2E44853F19833058ECA2833CB9CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26F1D6401317AF9F1CA24D3F926667E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752AF9DDCDA8690D8734E60B6504CD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71C7BAD5A0525F2B0B3DCFC3A700FBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AFB2FFE6B2E46C491D0A30D9C180EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BA9FA75972699C5076B01872084708 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2796A1ABA035F6CCD0C40EB883A74FBB /* Pods-desafio-ios-ruy-neto */ = {
+			isa = PBXGroup;
+			children = (
+				6A17D341EE6B53364D13A01F7A1A76C3 /* Pods-desafio-ios-ruy-neto.modulemap */,
+				04D55458988594B16A79D0F8C13451EC /* Pods-desafio-ios-ruy-neto-acknowledgements.markdown */,
+				BA225E9D60AB2A459137799025F722F4 /* Pods-desafio-ios-ruy-neto-acknowledgements.plist */,
+				41BF5DA35444E4F3EE07EAEA513D56C8 /* Pods-desafio-ios-ruy-neto-dummy.m */,
+				8AD008C4CBA1A19480F6A65AA613B90D /* Pods-desafio-ios-ruy-neto-frameworks.sh */,
+				3DFCF12ACB5BC29ED0F37632F2E937BF /* Pods-desafio-ios-ruy-neto-Info.plist */,
+				2E9033DFEB79B7ED6A81D2FFD9D76FA3 /* Pods-desafio-ios-ruy-neto-umbrella.h */,
+				1A26579A22E2AFBEF6D5484F84EFB701 /* Pods-desafio-ios-ruy-neto.debug.xcconfig */,
+				8F0DC3E7009A9C4B97DC7AADAF605152 /* Pods-desafio-ios-ruy-neto.release.xcconfig */,
+			);
+			name = "Pods-desafio-ios-ruy-neto";
+			path = "Target Support Files/Pods-desafio-ios-ruy-neto";
+			sourceTree = "<group>";
+		};
+		2C6A71D462ED46C2A7F74D962134DC74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36AB58DCE8747D206B69D48084D7CBB2 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36AB58DCE8747D206B69D48084D7CBB2 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				0CDBD0D3576836D87BFE122FD7BA5E07 /* SwiftyJSON.swift */,
+				FF2248F76C1F51163F78F4C1DED1A044 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		43FD4B65A794D913B14AA502AEAC197E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2796A1ABA035F6CCD0C40EB883A74FBB /* Pods-desafio-ios-ruy-neto */,
+				7C7DB3854E8C9B9DD1D31210FBCA3E9A /* Pods-desafio-ios-ruy-netoTests */,
+				F3AF014D03CDC42BAD5965E4F5CC87A3 /* Pods-desafio-ios-ruy-netoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6957EBA98D0C583E687AC146D78CE84E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E34E7923DF315847630773A3FDCCD79 /* Pods_desafio_ios_ruy_neto.framework */,
+				6F2A9C48E2B7295319908ABE0D2A3C6C /* Pods_desafio_ios_ruy_netoTests.framework */,
+				1B2F4BBD3027AA1E3230C07070E6E92A /* Pods_desafio_ios_ruy_netoUITests.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C7DB3854E8C9B9DD1D31210FBCA3E9A /* Pods-desafio-ios-ruy-netoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6025313F80BFF3A8EAE5EF1E57E84B /* Pods-desafio-ios-ruy-netoTests.modulemap */,
+				08B3088688AE29D2C8E12BF89E3AEEAE /* Pods-desafio-ios-ruy-netoTests-acknowledgements.markdown */,
+				6B0FBD7A2AA3579B96CE650BD5298CF1 /* Pods-desafio-ios-ruy-netoTests-acknowledgements.plist */,
+				E3DD7BF70E52666B9BBA14519603934D /* Pods-desafio-ios-ruy-netoTests-dummy.m */,
+				B2E04630EB93484FB08C290E407E34CB /* Pods-desafio-ios-ruy-netoTests-Info.plist */,
+				E05A37A427B025CD6FA59D901508C24F /* Pods-desafio-ios-ruy-netoTests-umbrella.h */,
+				8FFE87320CCFE4752A5D7453ABACD46C /* Pods-desafio-ios-ruy-netoTests.debug.xcconfig */,
+				AD8866375A93EB18FF6FB635E187B11C /* Pods-desafio-ios-ruy-netoTests.release.xcconfig */,
+			);
+			name = "Pods-desafio-ios-ruy-netoTests";
+			path = "Target Support Files/Pods-desafio-ios-ruy-netoTests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C6A71D462ED46C2A7F74D962134DC74 /* Pods */,
+				6957EBA98D0C583E687AC146D78CE84E /* Products */,
+				43FD4B65A794D913B14AA502AEAC197E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3AF014D03CDC42BAD5965E4F5CC87A3 /* Pods-desafio-ios-ruy-netoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4C1CFB0380854C37122D6C4EEF21857 /* Pods-desafio-ios-ruy-netoUITests.modulemap */,
+				356BB35E498FEA1DCEC565B2475FC087 /* Pods-desafio-ios-ruy-netoUITests-acknowledgements.markdown */,
+				C2A58281B94A4F84531F4D42F37BD095 /* Pods-desafio-ios-ruy-netoUITests-acknowledgements.plist */,
+				B671FA2140D85B969301F8DBDB3B4393 /* Pods-desafio-ios-ruy-netoUITests-dummy.m */,
+				99BAF10BDD7F63ABB8364B2E3E37D7D6 /* Pods-desafio-ios-ruy-netoUITests-Info.plist */,
+				D36DBC1E51856C52AE0E238BCF280CCE /* Pods-desafio-ios-ruy-netoUITests-umbrella.h */,
+				11FA44BA8BA2ADF2480F1C8E9AAA855F /* Pods-desafio-ios-ruy-netoUITests.debug.xcconfig */,
+				EF086DC5D15DE65DB043FD2F08148F8E /* Pods-desafio-ios-ruy-netoUITests.release.xcconfig */,
+			);
+			name = "Pods-desafio-ios-ruy-netoUITests";
+			path = "Target Support Files/Pods-desafio-ios-ruy-netoUITests";
+			sourceTree = "<group>";
+		};
+		FF2248F76C1F51163F78F4C1DED1A044 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05EB2E221DD60B8EFCF51F6CEE4D84ED /* SwiftyJSON.modulemap */,
+				E06E29E2979CDBEB5F2AD1D03AF329D3 /* SwiftyJSON.xcconfig */,
+				E473AEF89063E3384C91DA34E0D9B36B /* SwiftyJSON-dummy.m */,
+				E8473499E91B2D5B0E8BEDA4FEFA70CC /* SwiftyJSON-Info.plist */,
+				571603CA3E54B6CD8547FC7AAB992E07 /* SwiftyJSON-prefix.pch */,
+				4C66A9CAE176AAB72C4576E0BE4BD54C /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		037C42313246764DC585641C5931AC56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE64EAFD2E16D8C1BC83AD13E90F9473 /* Pods-desafio-ios-ruy-neto-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F12E05E58AD9C4AD4CDC05E9BEE001 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE769DE95ED8916CCDF62631883112F /* Pods-desafio-ios-ruy-netoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A4CE1079E0320C07B9B2E3841B0720 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB72719D87D4AE314BE0F8C979B9F2C /* Pods-desafio-ios-ruy-netoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7359118E396C165FE78CAD62B80F3436 /* Pods-desafio-ios-ruy-netoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED820D7C5501BEBB1A009C932F5A9D1 /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-ruy-netoTests" */;
+			buildPhases = (
+				D9A4CE1079E0320C07B9B2E3841B0720 /* Headers */,
+				1009A494CD5E90975FF3B9E83C14FF0F /* Sources */,
+				10F2E44853F19833058ECA2833CB9CC8 /* Frameworks */,
+				019A30EC0F0365FDB7B3695F2F357E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4353EE3CB8333410E168783E700F93C /* PBXTargetDependency */,
+			);
+			name = "Pods-desafio-ios-ruy-netoTests";
+			productName = "Pods-desafio-ios-ruy-netoTests";
+			productReference = 6F2A9C48E2B7295319908ABE0D2A3C6C /* Pods_desafio_ios_ruy_netoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7353C499814AD94138C5F4803433B40 /* Pods-desafio-ios-ruy-netoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDF634AF170FD85A3D5EFB9174C3FC8 /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-ruy-netoUITests" */;
+			buildPhases = (
+				A1F12E05E58AD9C4AD4CDC05E9BEE001 /* Headers */,
+				C762BAFD63ED58B96D34702272FA22E4 /* Sources */,
+				E9AFB2FFE6B2E46C491D0A30D9C180EC /* Frameworks */,
+				DFA0A880FE60DD94D2811D8EF9A800F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD1B42808DBB57EED8D69DF5683B18F /* PBXTargetDependency */,
+			);
+			name = "Pods-desafio-ios-ruy-netoUITests";
+			productName = "Pods-desafio-ios-ruy-netoUITests";
+			productReference = 1B2F4BBD3027AA1E3230C07070E6E92A /* Pods_desafio_ios_ruy_netoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE44603E12B90FB4228DA402B3EF88DC /* Pods-desafio-ios-ruy-neto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A76506C36D541ECA11C4E335CF80E5 /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-ruy-neto" */;
+			buildPhases = (
+				037C42313246764DC585641C5931AC56 /* Headers */,
+				45BF124673FB176727ECDDB465E902D9 /* Sources */,
+				752AF9DDCDA8690D8734E60B6504CD7F /* Frameworks */,
+				93F6C8FDEDAAC0E75CA8265D5B72E897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497342322668A2FAE3A0F1DE69EF009F /* PBXTargetDependency */,
+			);
+			name = "Pods-desafio-ios-ruy-neto";
+			productName = "Pods-desafio-ios-ruy-neto";
+			productReference = 3E34E7923DF315847630773A3FDCCD79 /* Pods_desafio_ios_ruy_neto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
+				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
+				AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */,
+				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6957EBA98D0C583E687AC146D78CE84E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE44603E12B90FB4228DA402B3EF88DC /* Pods-desafio-ios-ruy-neto */,
+				7359118E396C165FE78CAD62B80F3436 /* Pods-desafio-ios-ruy-netoTests */,
+				A7353C499814AD94138C5F4803433B40 /* Pods-desafio-ios-ruy-netoUITests */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019A30EC0F0365FDB7B3695F2F357E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F6C8FDEDAAC0E75CA8265D5B72E897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA0A880FE60DD94D2811D8EF9A800F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1009A494CD5E90975FF3B9E83C14FF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C95A8870723E1CCCE8E874074BA8DFE /* Pods-desafio-ios-ruy-netoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
+				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF124673FB176727ECDDB465E902D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD840E4C50225EE7F0ADF33C93F1E3E4 /* Pods-desafio-ios-ruy-neto-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C762BAFD63ED58B96D34702272FA22E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC163EF72AB8EB1D0846F914D2AB045 /* Pods-desafio-ios-ruy-netoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		497342322668A2FAE3A0F1DE69EF009F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 868FB555281DB8E071B57CC6AB91BF65 /* PBXContainerItemProxy */;
+		};
+		9BD1B42808DBB57EED8D69DF5683B18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-desafio-ios-ruy-neto";
+			target = BE44603E12B90FB4228DA402B3EF88DC /* Pods-desafio-ios-ruy-neto */;
+			targetProxy = 3013E3155424817DA7F9476E6748A72E /* PBXContainerItemProxy */;
+		};
+		F4353EE3CB8333410E168783E700F93C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-desafio-ios-ruy-neto";
+			target = BE44603E12B90FB4228DA402B3EF88DC /* Pods-desafio-ios-ruy-neto */;
+			targetProxy = BB4E0387EA8438DA9F7BDD6FEA7074CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58412110E493D98907C8A43E52319B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF086DC5D15DE65DB043FD2F08148F8E /* Pods-desafio-ios-ruy-netoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-ruy-netoUITests/Pods-desafio-ios-ruy-netoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-ruy-netoUITests/Pods-desafio-ios-ruy-netoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D9701A79FFE27BB0CDADC78A37FA86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0DC3E7009A9C4B97DC7AADAF605152 /* Pods-desafio-ios-ruy-neto.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-ruy-neto/Pods-desafio-ios-ruy-neto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-ruy-neto/Pods-desafio-ios-ruy-neto.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E2226BAF771B9AEEA8FE646C18E7879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06E29E2979CDBEB5F2AD1D03AF329D3 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77B68DA71075BC397CC9109A48D6DF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFE87320CCFE4752A5D7453ABACD46C /* Pods-desafio-ios-ruy-netoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-ruy-netoTests/Pods-desafio-ios-ruy-netoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-ruy-netoTests/Pods-desafio-ios-ruy-netoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8637B862C5AECED58C308DF9DA57272D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A26579A22E2AFBEF6D5484F84EFB701 /* Pods-desafio-ios-ruy-neto.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-ruy-neto/Pods-desafio-ios-ruy-neto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-ruy-neto/Pods-desafio-ios-ruy-neto.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AA3D45A5848B7D87F712811C37BE2C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8866375A93EB18FF6FB635E187B11C /* Pods-desafio-ios-ruy-netoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-ruy-netoTests/Pods-desafio-ios-ruy-netoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-ruy-netoTests/Pods-desafio-ios-ruy-netoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEBB8FD4A66BECD417FDF5990830820A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11FA44BA8BA2ADF2480F1C8E9AAA855F /* Pods-desafio-ios-ruy-netoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-ruy-netoUITests/Pods-desafio-ios-ruy-netoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-ruy-netoUITests/Pods-desafio-ios-ruy-netoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8F35927ECB754A46E0AC8C2BACAF32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06E29E2979CDBEB5F2AD1D03AF329D3 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A76506C36D541ECA11C4E335CF80E5 /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-ruy-neto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8637B862C5AECED58C308DF9DA57272D /* Debug */,
+				6D9701A79FFE27BB0CDADC78A37FA86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F35927ECB754A46E0AC8C2BACAF32D /* Debug */,
+				6E2226BAF771B9AEEA8FE646C18E7879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDF634AF170FD85A3D5EFB9174C3FC8 /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-ruy-netoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBB8FD4A66BECD417FDF5990830820A /* Debug */,
+				58412110E493D98907C8A43E52319B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED820D7C5501BEBB1A009C932F5A9D1 /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-ruy-netoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B68DA71075BC397CC9109A48D6DF9F /* Debug */,
+				AA3D45A5848B7D87F712811C37BE2C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

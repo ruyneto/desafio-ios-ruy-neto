@@ -8,7 +8,7 @@
 
 import Foundation
 import CommonCrypto
-
+import SwiftyJSON
 class HerosAPI{
     static let originURL    = "https://gateway.marvel.com:443/v1/public/"
     static let publicKey    = "697618806bf94a0321c5d706625d2875"
@@ -34,11 +34,9 @@ class HerosAPI{
                 errorHandler(error)
                 return
             }
-            let jsonDecoder   = JSONDecoder()
-            let convertedData = try! jsonDecoder.decode(CharactersResponse.self, from: data!)
-        
-            print(convertedData.code)
-            successHandler(convertedData)
+            guard let data = data else { return }
+            guard let converted   = try? JSONDecoder().decode(CharactersResponse.self, from: data) else {return }
+            successHandler(converted)
         }.resume()
     }
     

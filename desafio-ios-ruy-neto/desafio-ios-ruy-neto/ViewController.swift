@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
@@ -14,11 +15,14 @@ class ViewController: UIViewController {
     
     let lista  = Array(1...101)
     var limite = 20
-   let getHerosSucessHandler:HeroList.CompleteHerosSuccessHandler = {
-       data in
-       print(data)
-   }
+    let getHerosSucessHandler:HeroList.CompleteHerosSuccessHandler = {
+           data in
+          print(data)
+    }
+    let getHerosErrorHandler:HeroList.CompleteHerosErrorHandler = {
+            error in
 
+    }
 }
 
 extension ViewController{
@@ -27,10 +31,8 @@ extension ViewController{
        // Do any additional setup after loading the view.
        tabela.delegate   = self
        tabela.dataSource = self
-       HerosAPI.getAllHeros(page: 10, successHandler: getHerosSucessHandler, errorHandler: getHerosSucessHandler)
+       HerosAPI.getAllHeros(page: 10, successHandler: getHerosSucessHandler, errorHandler: getHerosErrorHandler)
     }
-
-   
 }
 
 extension ViewController:UITableViewDelegate{
