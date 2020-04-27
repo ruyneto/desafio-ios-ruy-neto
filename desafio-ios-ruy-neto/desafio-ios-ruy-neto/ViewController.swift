@@ -14,13 +14,23 @@ class ViewController: UIViewController {
     
     let lista  = Array(1...101)
     var limite = 20
+   let getHerosSucessHandler:HeroList.CompleteHerosSuccessHandler = {
+       data in
+       print(data)
+   }
+
+}
+
+extension ViewController{
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        tabela.delegate   = self
-        tabela.dataSource = self
+       super.viewDidLoad()
+       // Do any additional setup after loading the view.
+       tabela.delegate   = self
+       tabela.dataSource = self
+       HerosAPI.getAllHeros(page: 10, successHandler: getHerosSucessHandler, errorHandler: getHerosSucessHandler)
     }
 
+   
 }
 
 extension ViewController:UITableViewDelegate{
