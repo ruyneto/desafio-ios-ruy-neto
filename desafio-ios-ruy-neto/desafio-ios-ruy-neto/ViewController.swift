@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftyJSON
 
 class ViewController: UIViewController {
 
@@ -17,7 +16,7 @@ class ViewController: UIViewController {
     var limite = 20
     let getHerosSucessHandler:HeroList.CompleteHerosSuccessHandler = {
            data in
-          print(data)
+        print(data)
     }
     let getHerosErrorHandler:HeroList.CompleteHerosErrorHandler = {
             error in

@@ -25,8 +25,8 @@ class HerosAPI{
             successHandler : @escaping HeroList.CompleteHerosSuccessHandler,
             errorHandler   : @escaping HeroList.CompleteHerosErrorHandler
         ){
-        let session = URLSession(configuration: .default)
-        guard let url     = URL(string: "\(HerosAPI.originURL)characters?hash=f7bdb7165357503e85260e48ba9404a8&ts=1&apikey=697618806bf94a0321c5d706625d2875") else{return }
+        let session = URLSession.shared
+        guard let url     = URL(string: "\(HerosAPI.originURL)characters?hash=f7bdb7165357503e85260e48ba9404a8&ts=1&apikey=697618806bf94a0321c5d706625d2875&limit=\(20)&offset=\((page)*20)") else{return }
         session.dataTask(with: url){
             data,response,error in
             

@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-desafio-ios-ruy-neto/Pods-desafio-ios-ruy-neto-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework
 ${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

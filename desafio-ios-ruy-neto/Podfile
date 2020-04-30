@@ -7,6 +7,7 @@ target 'desafio-ios-ruy-neto' do
 
   # Pods for desafio-ios-ruy-neto
 	pod 'SwiftyJSON', '~> 4.0'
+	pod 'SteviaLayout', '~> 4.0'
   target 'desafio-ios-ruy-netoTests' do
     inherit! :search_paths
     # Pods for testing

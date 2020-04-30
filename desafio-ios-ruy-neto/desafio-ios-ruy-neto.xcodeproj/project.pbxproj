@@ -3,11 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1AF94B40536D2AC7106A0C5F /* Pods_desafio_ios_ruy_neto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABC5282C6F9D4838C561072 /* Pods_desafio_ios_ruy_neto.framework */; };
+		660AC8432456F0CD0027569D /* HeroListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660AC8422456F0CD0027569D /* HeroListViewModel.swift */; };
+		66166D6A2456BC090048E780 /* HeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66166D692456BC090048E780 /* HeroListViewController.swift */; };
+		66166D6D2456BF300048E780 /* HeroListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66166D6C2456BF300048E780 /* HeroListView.swift */; };
+		663F0C7E245B4B5100AC100B /* HeroListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C7D245B4B5100AC100B /* HeroListCell.swift */; };
 		66854C62245443F400859FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66854C61245443F400859FC7 /* AppDelegate.swift */; };
 		66854C64245443F400859FC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66854C63245443F400859FC7 /* SceneDelegate.swift */; };
 		66854C66245443F400859FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66854C65245443F400859FC7 /* ViewController.swift */; };
@@ -53,6 +57,10 @@
 /* Begin PBXFileReference section */
 		0788DF6928A5F8D5B02E9BDD /* Pods-desafio-ios-ruy-neto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-ruy-neto.debug.xcconfig"; path = "Target Support Files/Pods-desafio-ios-ruy-neto/Pods-desafio-ios-ruy-neto.debug.xcconfig"; sourceTree = "<group>"; };
 		457B734B349C0BF7AEB450E0 /* Pods-desafio-ios-ruy-netoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-ruy-netoUITests.release.xcconfig"; path = "Target Support Files/Pods-desafio-ios-ruy-netoUITests/Pods-desafio-ios-ruy-netoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		660AC8422456F0CD0027569D /* HeroListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewModel.swift; sourceTree = "<group>"; };
+		66166D692456BC090048E780 /* HeroListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewController.swift; sourceTree = "<group>"; };
+		66166D6C2456BF300048E780 /* HeroListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListView.swift; sourceTree = "<group>"; };
+		663F0C7D245B4B5100AC100B /* HeroListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListCell.swift; sourceTree = "<group>"; };
 		66854C5E245443F400859FC7 /* desafio-ios-ruy-neto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-ios-ruy-neto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66854C61245443F400859FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66854C63245443F400859FC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,8 +135,33 @@
 				D880185B746FBEB9AF6BE8CE /* Pods-desafio-ios-ruy-netoUITests.debug.xcconfig */,
 				457B734B349C0BF7AEB450E0 /* Pods-desafio-ios-ruy-netoUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		66166D672456BB7E0048E780 /* VM+Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66166D682456BBC50048E780 /* HeroList */,
+			);
+			path = "VM+Controller";
+			sourceTree = "<group>";
+		};
+		66166D682456BBC50048E780 /* HeroList */ = {
+			isa = PBXGroup;
+			children = (
+				66166D692456BC090048E780 /* HeroListViewController.swift */,
+				660AC8422456F0CD0027569D /* HeroListViewModel.swift */,
+				663F0C7D245B4B5100AC100B /* HeroListCell.swift */,
+			);
+			path = HeroList;
+			sourceTree = "<group>";
+		};
+		66166D6B2456BF140048E780 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66166D6C2456BF300048E780 /* HeroListView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		66854C55245443F400859FC7 = {
@@ -156,6 +189,8 @@
 		66854C60245443F400859FC7 /* desafio-ios-ruy-neto */ = {
 			isa = PBXGroup;
 			children = (
+				66166D6B2456BF140048E780 /* View */,
+				66166D672456BB7E0048E780 /* VM+Controller */,
 				668D86C12455A4F400846DD2 /* Model */,
 				668D86BE24559B2000846DD2 /* Handlers */,
 				66854C61245443F400859FC7 /* AppDelegate.swift */,
@@ -448,6 +483,7 @@
 				668D86BD2455667800846DD2 /* HerosApi.swift in Sources */,
 				668D86D62455A8B800846DD2 /* DataHero.swift in Sources */,
 				668D86D72455A8B800846DD2 /* Series.swift in Sources */,
+				663F0C7E245B4B5100AC100B /* HeroListCell.swift in Sources */,
 				668D86C024559B3800846DD2 /* Handlers.swift in Sources */,
 				668D86D32455A8B800846DD2 /* Thumbnail.swift in Sources */,
 				66854C66245443F400859FC7 /* ViewController.swift in Sources */,
@@ -456,11 +492,14 @@
 				668D86D22455A8B800846DD2 /* Urls.swift in Sources */,
 				668D86CE2455A8B800846DD2 /* Results.swift in Sources */,
 				668D86D42455A8B800846DD2 /* CharactersResponse.swift in Sources */,
+				66166D6A2456BC090048E780 /* HeroListViewController.swift in Sources */,
 				668D86CF2455A8B800846DD2 /* Events.swift in Sources */,
 				66854C62245443F400859FC7 /* AppDelegate.swift in Sources */,
+				66166D6D2456BF300048E780 /* HeroListView.swift in Sources */,
 				66854C64245443F400859FC7 /* SceneDelegate.swift in Sources */,
 				668D86C32455A5B100846DD2 /* Hero.swift in Sources */,
 				668D86D02455A8B800846DD2 /* Comics.swift in Sources */,
+				660AC8432456F0CD0027569D /* HeroListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
