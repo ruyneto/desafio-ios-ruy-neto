@@ -11,6 +11,7 @@ import UIKit
 
 enum MyNavigation: Navigation {
     case HeroDetails(Int)
+    case BiggerPrice(Int)
 }
 
 struct MyAppNavigation: AppNavigation {
@@ -20,6 +21,8 @@ struct MyAppNavigation: AppNavigation {
             switch navigation {
                 case .HeroDetails(let id):
                     return HeroDetailsViewController(id: id)
+                case .BiggerPrice(let id):
+                    return BiggerPriceViewController(id: id)
             }
         }
         return UIViewController()

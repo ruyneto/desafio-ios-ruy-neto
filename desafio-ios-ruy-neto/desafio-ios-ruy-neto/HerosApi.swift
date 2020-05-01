@@ -85,6 +85,29 @@ class HerosAPI{
                successHandler(converted)
            }.resume()
        }
+    
+    static func
+           getComic(
+               id             : Int,
+               successHandler : @escaping HeroDetails.CompleteHeroDetailHandler,
+               errorHandler   : @escaping HeroDetails.ErrorHeroDetailHandler
+           ){
+           let session = URLSession.shared
+           guard let url     = URL(string: "\(HerosAPI.originURL)characters/\(id)?hash=f7bdb7165357503e85260e48ba9404a8&ts=1&apikey=697618806bf94a0321c5d706625d2875&") else{return }
+           session.dataTask(with: url){
+               data,response,error in
+               
+               guard error == nil else {
+                   errorHandler(error)
+                   return
+               }
+               guard let data = data else { return }
+            guard let converted   = try? JSON(data: data) else {
+                errorHandler("JSON Problem.")
+                return }
+               successHandler(converted)
+           }.resume()
+       }
 }
 
 

@@ -11,10 +11,10 @@ import UIKit
 import Stevia
 
 class HeroDetailsView:UIView{
-    let spinner           = UIActivityIndicatorView(style: .large)
     let imageView         = UIImageView(frame: .zero)
     let labelName         = UILabel(frame: .zero)
     let labelDescription  = UILabel(frame: .zero)
+    let buttonHighPrice   = UIButton(frame: .zero)
     init(){
         super.init(frame: .zero)
         loadStyle()
@@ -30,21 +30,24 @@ class HeroDetailsView:UIView{
 extension HeroDetailsView{
     func loadStyle(){
         self.backgroundColor = .white
-        self.labelDescription.numberOfLines = 3
-        self.labelDescription.textAlignment = .center
+        self.labelDescription.numberOfLines  = 3
+        self.labelDescription.textAlignment  = .center
+        self.buttonHighPrice.text("HQ mais cara")
+        self.buttonHighPrice.backgroundColor  = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
+        self.buttonHighPrice.titleLabel!.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        self.buttonHighPrice.layer.cornerRadius = 10.0
+        
     }
     func loadSubviews(){
         sv([
-//            spinner,
             imageView,
             labelName,
-            labelDescription
+            labelDescription,
+            buttonHighPrice
         ])
     }
     func loadLayout(){
         labelName.centerInContainer()
-//        spinner.centerInContainer()
-//        spinner.startAnimating()
-        layout(30,imageView.centerHorizontally(), labelName,30,|-labelDescription.centerHorizontally()-|)
+        layout(60,|-50-imageView.centerHorizontally()-50-|, labelName,30,|-labelDescription.centerHorizontally()-|,30,|-20-buttonHighPrice-20-|)
     }
 }

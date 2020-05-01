@@ -19,6 +19,7 @@ class HeroDetailsViewController:UIViewController{
         self.view = viewDetail
         self.navigationItem.title = heroDetailsVM.navigationTitle
         loadDetails(id: id)
+        loadButtonHandler()
     }
     
     required init?(coder: NSCoder) {
@@ -35,8 +36,15 @@ extension HeroDetailsViewController{
 
 //MARK: Handlers
 extension HeroDetailsViewController{
+    func loadButtonHandler(){
+        self.viewDetail.buttonHighPrice.addTarget(self, action: #selector(biggerPriceButton), for: .touchDown)
+    }
+    
+    @objc func biggerPriceButton(){
+        navigate(MyNavigation.BiggerPrice(heroDetailsVM.heroDetails!["id"].int!))
+    }
     func successHandler(resp:JSON){
-        print(resp["data"]["results"].array![0])
+   
         heroDetailsVM.heroDetails        = resp["data"]["results"].array![0]
         DispatchQueue.main.async {
             self.viewDetail.labelName.text        = self.heroDetailsVM.heroName
@@ -44,7 +52,6 @@ extension HeroDetailsViewController{
         }
         
         let imageURL = self.heroDetailsVM.heroDetails!["thumbnail"]["path"].string!
-        print(imageURL);
         let completeURL = "\(imageURL)/\("portrait_xlarge.jpg")".replacingOccurrences(of: "http", with: "https")
         if !completeURL.contains("image_not_available"){
             let url = URL(string: completeURL)
@@ -57,8 +64,11 @@ extension HeroDetailsViewController{
         
 
         }else{
-            let uiImage = UIImage(named: "bad_face")
-            self.viewDetail.imageView.image = uiImage
+            DispatchQueue.main.async {
+                let uiImage = UIImage(named: "bad_face")
+                self.viewDetail.imageView.image = uiImage
+                
+            }
         }
     }
     

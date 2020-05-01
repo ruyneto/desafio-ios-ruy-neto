@@ -11,11 +11,15 @@ import UIKit
 import SwiftyJSON
 class BiggerPriceViewModel{
     var id:Int!
-    let navigationTitle              = "Detalhes"
+    let navigationTitle              = "HQ mais cara"
     var dictionary:[String:Double]   = [:]
     var biggerId                     = ""
-    
+    var listOfComics:[JSON]?
+    var bigger:JSON?
+    var biggerPrice:Double?
+    var hasZeroComics = false
     func orderPrice(_ list:JSON){
+        self.listOfComics = list.array
         for comic in list.array!{
             let id = comic["id"]
             
@@ -29,7 +33,9 @@ class BiggerPriceViewModel{
             dictionary["\(id)"] = biggerPrice
         }
         
-        
+        guard [String](dictionary.keys).count>0 else{
+            hasZeroComics = true
+            return}
         var biggerid    = [String](dictionary.keys)[0]
         var biggerprice = dictionary[[String](dictionary.keys)[0]]!
         
@@ -40,6 +46,15 @@ class BiggerPriceViewModel{
             }
         }
         self.biggerId = biggerid
+        self.biggerPrice = biggerprice
         print(" \(biggerid) \(biggerprice) ")
+    }
+    func getBigger(){
+        if(!self.hasZeroComics){
+            let filtred = self.listOfComics?.filter({comic in
+                return "\(comic["id"].int!)" == self.biggerId
+            })
+            self.bigger = filtred![0]
+        }
     }
 }

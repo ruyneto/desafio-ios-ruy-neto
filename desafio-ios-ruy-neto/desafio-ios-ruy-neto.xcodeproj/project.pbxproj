@@ -20,6 +20,7 @@
 		663F0C8E245BB8BD00AC100B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C8D245BB8BD00AC100B /* Router.swift */; };
 		663F0C91245BE54200AC100B /* HeroDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C90245BE54200AC100B /* HeroDetailsViewController.swift */; };
 		663F0C93245BE57200AC100B /* HeroDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C92245BE57200AC100B /* HeroDetailsViewModel.swift */; };
+		663F0C95245C222300AC100B /* BiggerPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C94245C222300AC100B /* BiggerPriceView.swift */; };
 		66854C62245443F400859FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66854C61245443F400859FC7 /* AppDelegate.swift */; };
 		66854C64245443F400859FC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66854C63245443F400859FC7 /* SceneDelegate.swift */; };
 		66854C66245443F400859FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66854C65245443F400859FC7 /* ViewController.swift */; };
@@ -77,6 +78,7 @@
 		663F0C8D245BB8BD00AC100B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		663F0C90245BE54200AC100B /* HeroDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsViewController.swift; sourceTree = "<group>"; };
 		663F0C92245BE57200AC100B /* HeroDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsViewModel.swift; sourceTree = "<group>"; };
+		663F0C94245C222300AC100B /* BiggerPriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiggerPriceView.swift; sourceTree = "<group>"; };
 		66854C5E245443F400859FC7 /* desafio-ios-ruy-neto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-ios-ruy-neto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66854C61245443F400859FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66854C63245443F400859FC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				66166D6C2456BF300048E780 /* HeroListView.swift */,
 				663F0C81245BB0DB00AC100B /* HeroListDetailsView.swift */,
 				663F0C88245BB17E00AC100B /* HeroDetailsView.swift */,
+				663F0C94245C222300AC100B /* BiggerPriceView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -551,6 +554,7 @@
 				663F0C91245BE54200AC100B /* HeroDetailsViewController.swift in Sources */,
 				663F0C93245BE57200AC100B /* HeroDetailsViewModel.swift in Sources */,
 				668D86C32455A5B100846DD2 /* Hero.swift in Sources */,
+				663F0C95245C222300AC100B /* BiggerPriceView.swift in Sources */,
 				668D86D02455A8B800846DD2 /* Comics.swift in Sources */,
 				663F0C82245BB0DB00AC100B /* HeroListDetailsView.swift in Sources */,
 				663F0C8B245BB63500AC100B /* CharacterDetail.swift in Sources */,
