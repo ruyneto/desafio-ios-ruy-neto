@@ -8,10 +8,11 @@
 
 import Foundation
 import UIKit
+import Stevia
 
 class HeroListCell:UITableViewCell{
-    let heroImage = UIImageView(frame: .zero)
-    let labelName = UILabel(frame: .zero)
+    let titleView = HeroCellTitleView()
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         loadSubViews()
@@ -26,13 +27,50 @@ class HeroListCell:UITableViewCell{
 
 extension HeroListCell{
     func loadSubViews(){
-        sv([heroImage,labelName])
+//        sv([heroImage,titleView])
+        sv([titleView])
     }
     func loadLayout(){
-        heroImage.centerInContainer()
-        labelName.centerInContainer()
+//        heroImage.centerInContainer()
+        titleView.bottom(20).left(20).right(20).top(20)
     }
     func loadStyle(){
-        self.backgroundColor = .red
     }
+}
+
+class HeroCellTitleView:UIView{
+    let labelName = UILabel(frame: .zero)
+    let heroImage = UIImageView(frame: .zero)
+    
+    init(){
+        super.init(frame: .zero)
+        loadSubViews()
+        loadLayout()
+        loadStyle()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
+
+extension HeroCellTitleView{
+    func loadSubViews(){
+        sv([labelName,heroImage])
+    }
+    func loadLayout(){
+        layout(20,heroImage.centerHorizontally(),|-20-labelName-20-|,20)
+        labelName.numberOfLines = 3
+        labelName.lineBreakMode = .byTruncatingTail
+        labelName.font = labelName.font.withSize(12)
+        labelName.textAlignment = .center
+    }
+    func loadStyle(){
+        self.layer.cornerRadius = 30
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOpacity = 1
+        self.layer.shadowOffset = .zero
+        self.layer.shadowRadius = 10
+    }
+    
 }

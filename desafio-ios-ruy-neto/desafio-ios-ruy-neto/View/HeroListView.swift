@@ -36,5 +36,7 @@ extension HeroListView{
     }
     func loadStyle(){
         self.backgroundColor = .blue
+        self.heroTable.separatorStyle = .none
+        
     }
 }

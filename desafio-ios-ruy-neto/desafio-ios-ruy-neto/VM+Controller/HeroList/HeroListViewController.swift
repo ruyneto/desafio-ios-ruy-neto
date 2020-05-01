@@ -62,27 +62,39 @@ extension HeroListViewController:UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellHero") as! HeroListCell
-        cell.labelName.text = heroListVM.listHero[indexPath.row].name
-            let imageURL    = self.heroListVM.listHero[indexPath.row].thumbnail?.path
-            let completeURL = "\(imageURL!)/\("portrait_xlarge.jpg")".replacingOccurrences(of: "http", with: "https")
-            if !completeURL.contains("image_not_available"){
-                let url = URL(string: completeURL)
-                print("Valor da url \(url)")
-                let image = try! Data(contentsOf: url! )
-                cell.heroImage.image = UIImage(data: image)
-            }
-        
+        cell.tag = indexPath.row
         return cell
     }
+   
 }
 
 //MARK: TableDelegate
 
 extension HeroListViewController:UITableViewDelegate{
+    
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         print(indexPath.row)
         if(indexPath.row == (self.heroListVM.listHero.count - 1)){
             self.loadHeros()
+        }
+        
+        guard let celula = cell as? HeroListCell else {return}
+        celula.titleView.heroImage.height(225)
+        celula.titleView.heroImage.width(150)
+        celula.titleView.heroImage.image = nil
+        celula.titleView.labelName.text = heroListVM.listHero[indexPath.row].name
+        let imageURL    = self.heroListVM.listHero[indexPath.row].thumbnail?.path
+        let completeURL = "\(imageURL!)/\("portrait_xlarge.jpg")".replacingOccurrences(of: "http", with: "https")
+        if !completeURL.contains("image_not_available"){
+            let url = URL(string: completeURL)
+            if(cell.tag == indexPath.row) {
+                    let image = try! Data(contentsOf: url! )
+                    let uiImage = UIImage(data: image)
+                    celula.titleView.heroImage.image = uiImage
+            }
+        }else{
+            let uiImage = UIImage(named: "bad_face")
+            celula.titleView.heroImage.image = uiImage
         }
     }
 }
