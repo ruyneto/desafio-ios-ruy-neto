@@ -12,6 +12,14 @@
 		66166D6A2456BC090048E780 /* HeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66166D692456BC090048E780 /* HeroListViewController.swift */; };
 		66166D6D2456BF300048E780 /* HeroListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66166D6C2456BF300048E780 /* HeroListView.swift */; };
 		663F0C7E245B4B5100AC100B /* HeroListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C7D245B4B5100AC100B /* HeroListCell.swift */; };
+		663F0C82245BB0DB00AC100B /* HeroListDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C81245BB0DB00AC100B /* HeroListDetailsView.swift */; };
+		663F0C85245BB10B00AC100B /* BiggerPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C84245BB10B00AC100B /* BiggerPriceViewController.swift */; };
+		663F0C87245BB16200AC100B /* BiggerPriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C86245BB16200AC100B /* BiggerPriceViewModel.swift */; };
+		663F0C89245BB17E00AC100B /* HeroDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C88245BB17E00AC100B /* HeroDetailsView.swift */; };
+		663F0C8B245BB63500AC100B /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C8A245BB63500AC100B /* CharacterDetail.swift */; };
+		663F0C8E245BB8BD00AC100B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C8D245BB8BD00AC100B /* Router.swift */; };
+		663F0C91245BE54200AC100B /* HeroDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C90245BE54200AC100B /* HeroDetailsViewController.swift */; };
+		663F0C93245BE57200AC100B /* HeroDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F0C92245BE57200AC100B /* HeroDetailsViewModel.swift */; };
 		66854C62245443F400859FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66854C61245443F400859FC7 /* AppDelegate.swift */; };
 		66854C64245443F400859FC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66854C63245443F400859FC7 /* SceneDelegate.swift */; };
 		66854C66245443F400859FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66854C65245443F400859FC7 /* ViewController.swift */; };
@@ -61,6 +69,14 @@
 		66166D692456BC090048E780 /* HeroListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewController.swift; sourceTree = "<group>"; };
 		66166D6C2456BF300048E780 /* HeroListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListView.swift; sourceTree = "<group>"; };
 		663F0C7D245B4B5100AC100B /* HeroListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListCell.swift; sourceTree = "<group>"; };
+		663F0C81245BB0DB00AC100B /* HeroListDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListDetailsView.swift; sourceTree = "<group>"; };
+		663F0C84245BB10B00AC100B /* BiggerPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiggerPriceViewController.swift; sourceTree = "<group>"; };
+		663F0C86245BB16200AC100B /* BiggerPriceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiggerPriceViewModel.swift; sourceTree = "<group>"; };
+		663F0C88245BB17E00AC100B /* HeroDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsView.swift; sourceTree = "<group>"; };
+		663F0C8A245BB63500AC100B /* CharacterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
+		663F0C8D245BB8BD00AC100B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		663F0C90245BE54200AC100B /* HeroDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsViewController.swift; sourceTree = "<group>"; };
+		663F0C92245BE57200AC100B /* HeroDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsViewModel.swift; sourceTree = "<group>"; };
 		66854C5E245443F400859FC7 /* desafio-ios-ruy-neto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-ios-ruy-neto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66854C61245443F400859FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66854C63245443F400859FC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +157,8 @@
 		66166D672456BB7E0048E780 /* VM+Controller */ = {
 			isa = PBXGroup;
 			children = (
+				663F0C8F245BE52A00AC100B /* BiggerPrice */,
+				663F0C83245BB0F200AC100B /* HeroDetails */,
 				66166D682456BBC50048E780 /* HeroList */,
 			);
 			path = "VM+Controller";
@@ -160,8 +178,36 @@
 			isa = PBXGroup;
 			children = (
 				66166D6C2456BF300048E780 /* HeroListView.swift */,
+				663F0C81245BB0DB00AC100B /* HeroListDetailsView.swift */,
+				663F0C88245BB17E00AC100B /* HeroDetailsView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		663F0C83245BB0F200AC100B /* HeroDetails */ = {
+			isa = PBXGroup;
+			children = (
+				663F0C90245BE54200AC100B /* HeroDetailsViewController.swift */,
+				663F0C92245BE57200AC100B /* HeroDetailsViewModel.swift */,
+			);
+			path = HeroDetails;
+			sourceTree = "<group>";
+		};
+		663F0C8C245BB8B300AC100B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				663F0C8D245BB8BD00AC100B /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		663F0C8F245BE52A00AC100B /* BiggerPrice */ = {
+			isa = PBXGroup;
+			children = (
+				663F0C84245BB10B00AC100B /* BiggerPriceViewController.swift */,
+				663F0C86245BB16200AC100B /* BiggerPriceViewModel.swift */,
+			);
+			path = BiggerPrice;
 			sourceTree = "<group>";
 		};
 		66854C55245443F400859FC7 = {
@@ -189,6 +235,7 @@
 		66854C60245443F400859FC7 /* desafio-ios-ruy-neto */ = {
 			isa = PBXGroup;
 			children = (
+				663F0C8C245BB8B300AC100B /* Router */,
 				66166D6B2456BF140048E780 /* View */,
 				66166D672456BB7E0048E780 /* VM+Controller */,
 				668D86C12455A4F400846DD2 /* Model */,
@@ -245,6 +292,7 @@
 				668D86C92455A8B800846DD2 /* Thumbnail.swift */,
 				668D86C82455A8B700846DD2 /* Urls.swift */,
 				668D86C22455A5B100846DD2 /* Hero.swift */,
+				663F0C8A245BB63500AC100B /* CharacterDetail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -480,6 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663F0C87245BB16200AC100B /* BiggerPriceViewModel.swift in Sources */,
 				668D86BD2455667800846DD2 /* HerosApi.swift in Sources */,
 				668D86D62455A8B800846DD2 /* DataHero.swift in Sources */,
 				668D86D72455A8B800846DD2 /* Series.swift in Sources */,
@@ -491,15 +540,22 @@
 				668D86D12455A8B800846DD2 /* Stories.swift in Sources */,
 				668D86D22455A8B800846DD2 /* Urls.swift in Sources */,
 				668D86CE2455A8B800846DD2 /* Results.swift in Sources */,
+				663F0C8E245BB8BD00AC100B /* Router.swift in Sources */,
 				668D86D42455A8B800846DD2 /* CharactersResponse.swift in Sources */,
 				66166D6A2456BC090048E780 /* HeroListViewController.swift in Sources */,
 				668D86CF2455A8B800846DD2 /* Events.swift in Sources */,
 				66854C62245443F400859FC7 /* AppDelegate.swift in Sources */,
+				663F0C85245BB10B00AC100B /* BiggerPriceViewController.swift in Sources */,
 				66166D6D2456BF300048E780 /* HeroListView.swift in Sources */,
 				66854C64245443F400859FC7 /* SceneDelegate.swift in Sources */,
+				663F0C91245BE54200AC100B /* HeroDetailsViewController.swift in Sources */,
+				663F0C93245BE57200AC100B /* HeroDetailsViewModel.swift in Sources */,
 				668D86C32455A5B100846DD2 /* Hero.swift in Sources */,
 				668D86D02455A8B800846DD2 /* Comics.swift in Sources */,
+				663F0C82245BB0DB00AC100B /* HeroListDetailsView.swift in Sources */,
+				663F0C8B245BB63500AC100B /* CharacterDetail.swift in Sources */,
 				660AC8432456F0CD0027569D /* HeroListViewModel.swift in Sources */,
+				663F0C89245BB17E00AC100B /* HeroDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,7 @@ class HeroListViewController:UIViewController{
         self.view = self.heroListView
         loadHeros()
         setTableConfiguration()
+        self.navigationItem.title = heroListVM.titleNavigation
     }
     
     required init?(coder: NSCoder) {
@@ -71,6 +72,11 @@ extension HeroListViewController:UITableViewDataSource{
 //MARK: TableDelegate
 
 extension HeroListViewController:UITableViewDelegate{
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let id = heroListVM.listHero[indexPath.row].id!
+        navigate(.HeroDetails(id))
+    }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         print(indexPath.row)

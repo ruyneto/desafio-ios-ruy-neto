@@ -9,9 +9,10 @@
 import UIKit
 
 class HeroListViewModel {
-    var page           = 0;
-    var listHero       :[Results] = []
-    var isLoadingHeros = false
+    var page            = 0;
+    var listHero        :[Results] = []
+    var isLoadingHeros  = false
+    var titleNavigation = "Lista de Heros"
     func updateStateLoading(){
         self.isLoadingHeros = !self.isLoadingHeros
     }

@@ -12,3 +12,7 @@ struct HeroList{
     typealias CompleteHerosSuccessHandler = (_ dataHeros:CharactersResponse)->Void
     typealias CompleteHerosErrorHandler   = (_ error:Any?)->Void
 }
+struct HeroDetails{
+    typealias CompleteHeroDetailHandler = (_ heroDetail:JSON)->Void
+    typealias ErrorHeroDetailHandler    = (_ error:Any?)->Void
+}
