@@ -87,9 +87,13 @@ extension HeroListViewController:UITableViewDelegate{
         let completeURL = "\(imageURL!)/\("portrait_xlarge.jpg")".replacingOccurrences(of: "http", with: "https")
         if !completeURL.contains("image_not_available"){
             let url = URL(string: completeURL)
+            celula.titleView.heroImage.isHidden    = true;
+            celula.titleView.labelLoading.isHidden = false;
             if(cell.tag == indexPath.row) {
                     let image = try! Data(contentsOf: url! )
                     let uiImage = UIImage(data: image)
+                    celula.titleView.heroImage.isHidden    = false;
+                    celula.titleView.labelLoading.isHidden = true;
                     celula.titleView.heroImage.image = uiImage
             }
         }else{

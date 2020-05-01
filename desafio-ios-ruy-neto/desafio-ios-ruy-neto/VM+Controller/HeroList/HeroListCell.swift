@@ -39,9 +39,9 @@ extension HeroListCell{
 }
 
 class HeroCellTitleView:UIView{
-    let labelName = UILabel(frame: .zero)
-    let heroImage = UIImageView(frame: .zero)
-    
+    let labelName    = UILabel(frame: .zero)
+    let heroImage    = UIImageView(frame: .zero)
+    let labelLoading = UILabel(frame: .zero)
     init(){
         super.init(frame: .zero)
         loadSubViews()
@@ -56,9 +56,10 @@ class HeroCellTitleView:UIView{
 
 extension HeroCellTitleView{
     func loadSubViews(){
-        sv([labelName,heroImage])
+        sv([labelName,labelLoading,heroImage])
     }
     func loadLayout(){
+        labelLoading.centerInContainer()
         layout(20,heroImage.centerHorizontally(),|-20-labelName-20-|,20)
         labelName.numberOfLines = 3
         labelName.lineBreakMode = .byTruncatingTail
@@ -66,6 +67,8 @@ extension HeroCellTitleView{
         labelName.textAlignment = .center
     }
     func loadStyle(){
+        labelLoading.text = "Aguarde carregando imagem."
+        labelLoading.isHidden=true
         self.layer.cornerRadius = 30
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowOpacity = 1
